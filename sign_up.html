@@ -4,29 +4,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Styles/style.css">
         <title>Sign Up</title>
     </head>
 
     <body>
 
-
+<div class="container">
         <form action="Index.html" method="POST" class="login-container-input-style">
 
             <h1 class="log-head-style">Register</h1>
 
-            <input type="text" name="first-name"  placeholder="First Name" required>
-            <input type="text" name="last-name" placeholder="Last Name" required><br>
-            <input type="text" name="user-phone"  placeholder="Phone Number" required><br>
-            <input type="email" name="user-email" placeholder="E-mail" required><br>
-            <input type="password" name="user-password" placeholder="Password" required>
-            <input type="password" name="re-password" placeholder="Confirm Password" required><br>
-            <input type="checkbox" name="terms-use"><label for="terms-use" id="terms-txt"> I Accept <a href="#">Terms of Use</a></label><br>
-            <input type="submit" value="Register" id="registbut">
+            <input type="text" name="first-name" class="input-box"  placeholder="First Name" required>
+            <input type="text" name="last-name" class="input-box" placeholder="Last Name" required><br>
+            <input type="text" name="user-phone" class="input-box" placeholder="Phone Number" required><br>
+            <input type="email" name="user-email" class="input-box" placeholder="E-mail" required><br>
+            <input type="password" name="user-password" class="input-box" placeholder="Password" required>
+            <input type="password" name="re-password" class="input-box" placeholder="Confirm Password" required><br>
+            <input type="checkbox" class="input-box" name="terms-use"><label for="terms-use" id="terms-txt"> I Accept <a href="#">Terms of Use</a></label><br>
+            <input type="submit" value="Register" class="input-box" id="registbut">
             
         </form>
         
         <p id="logbut">Have an account? <a href="#">Login</a></p>
-
+    </div>
         
     </body>
 
