@@ -114,6 +114,9 @@ body{
 .button input[type="button"]:hover{
   background: #5029bc;
 }
+input{
+  margin-bottom: 10px;
+}
 
 @media (max-width: 950px) {
   .container{
